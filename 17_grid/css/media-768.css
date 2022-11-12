@@ -1,0 +1,31 @@
+@media(max-width:768px) {
+  .container-sm {
+    padding: 28px 30px;
+  }
+  .lang-swither__item:not(:last-child) {
+    margin-right: 57px;
+}
+.hero-container {
+  padding: 0 28px 26px;
+}
+.hero-content__heading {
+  margin-bottom: 17px;
+  font-size: 50px;
+  line-height: 50px;
+}
+.hero-content__descr {
+  max-width: 366px;
+}
+.hero-content {
+  padding-top: 129px;
+}
+.hero-image {
+  background-image: url("../img/Image-hero_768.png");
+}
+.container-inner  {
+  padding: 80px 39px;
+}
+.container-inner__description {
+  display: block;
+}
+}

@@ -1,0 +1,225 @@
+@media (max-width:1470px) {
+  .about-us__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about-us__content-left {
+    min-height: 640px;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+  .about-us__content-right {
+    max-width: 100%;
+  }
+  .footer__text {
+    display: none;
+  }
+  }
+  @media (max-width: 1200px) {
+    .lang-swither__item {
+      margin-right: 68px;
+    }
+  }
+
+  @media (max-width:1120px) {
+.container {
+  padding: 0 50px;
+}
+.burger-line {
+  display: block;
+  outline: none;
+  position: relative;
+}
+.burger-line__close:first-child svg rect {
+  color: black;
+}
+.burger-line:focus {
+  outline: 2px solid var(--orange-color);
+}
+.burger-line__close {
+  position: relative;
+  display: block;
+  width: 23px;
+  height: 23px;
+  margin-bottom: 100px;
+}
+.nav {
+  align-items: flex-start;
+  width: 420px;
+  height: 768px;
+  position: absolute;
+  left: -100vw;
+  padding: 39px 50px;
+  top: 0;
+  z-index: 100;
+  background-color: var(--white-color);
+  box-shadow: 0px 5px 40px rgb(0 0 0 / 10%);
+  transition: left .3s ease-in-out;
+}
+.lang-swither__link--LinkHidden {
+  display: none;
+}
+.lang-swither__link--Visible {
+  display: block;
+}
+.header-search {
+  right: 48px;
+  bottom: 24px;
+}
+.burger-active {
+  transform: none;
+}
+.nav.burger-active {
+  flex-direction: column;
+  left: 0;
+  transition: left .3s ease-in-out;
+}
+.lang-swither {
+  flex-direction: column;
+}
+.lang-swither__link {
+  font-weight: 700;
+  font-size: 24px;
+}
+.lang-swither__item {
+  margin-right: 0;
+}
+.lang-swither__item:not(:last-child) {
+  margin-bottom: 60px;
+}
+.Evklid-Logo {
+  width: 150px;
+}
+.hero {
+  height: 670px;
+}
+.main-heading {
+  margin-bottom: 17px;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+}
+.main-paragraph {
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.about-us {
+  padding-top: 75px;
+}
+.about-us__title {
+  margin-bottom: 11px;
+}
+.about-us__text {
+  margin-bottom: 65px;
+  line-height: 32px;
+}
+
+.about-us__content-left__inner {
+  padding: 49px 50px;
+}
+
+.about-us__content-left__text {
+  margin-right: 200px;
+}
+
+.about-us__content-right__text {
+  line-height: 32px;
+}
+.about-us__content-right__item {
+  background-position: left 76px center;
+  padding: 64px 123px 63px 316px;
+}
+.how-we-work {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.how-we-work__list {
+  margin-bottom: 50px;
+}
+.how-we-work__description-block__left {
+  width: 46%;
+}
+.how-we-work__desc-text {
+  margin-bottom: 24px;
+}
+.how-we-work__description-block__right {
+  width: 47%;
+}
+.asked-questions {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.asked-questions__list-title {
+  max-width: 756px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+.asked-questions__title {
+  margin-bottom: 35px;
+}
+.asked-questions__item {
+  margin: 0;
+  padding: 30px 0;
+}
+.asked-questions__list {
+  padding: 0;
+}
+.asked-questions__svg {
+  right: 0px;
+  top: 33%;
+}
+.footer {
+  padding: 50px 0;
+}
+.footer-container__left {
+    width: 34%;
+}
+.footer__list {
+  margin-bottom: 100px;
+}
+
+.footer__right {
+  width: 59%;
+  margin: 0;
+}
+.footer__right-wrapper {
+  min-width: 100%;
+}
+.footer-form  {
+  max-width: 541px;
+}
+.footer-form__btn {
+  margin-right: 23px;
+  padding: 19px 37px;
+}
+.footer__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+@media (max-width:1024px) {
+  .hero-swiper__text {
+    max-width: 770px;
+    bottom: -158px;
+  }
+  .ui-accordion .ui-accordion-header {
+    max-width: 90%;
+    font-size: 22px;
+  }
+  .asked-questions__item svg {
+    right: -90px;
+    top: 7px;
+}
+  .asked-questions__item-2 {
+    padding: 38px 0 22px;
+  }
+  .asked-questions__item-2 svg {
+top: -8px;
+  }
+}
+.slide-1 {
+  background-image: url('../img/low-angle-photo-of-balconies-1024.png');
+}
+}

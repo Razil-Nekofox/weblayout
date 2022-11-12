@@ -1,0 +1,169 @@
+@media (max-width:900px) {
+  .container-header {
+    height: 68px;
+  }
+  .hero-swiper__text {
+    max-width: 600px;
+  }
+  .Evklid-Logo {
+    left: 259px;
+  }
+  .lang-swither__item {
+    margin-right: 40px;
+  }
+  .main-heading {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+  }
+  .main-paragraph {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .header-search {
+    right: 48px;
+    bottom: 5px;
+  }
+  .hero__container__inner {
+    background-image: url(../img/low-angle-photo-of-balconies-768.png);
+    background-size: cover;
+  }
+  .about-us__text {
+    margin-bottom: 58px;
+  }
+  .about-us__content-left {
+    width: 100%;
+    min-height: 648px;
+  }
+  .about-us__content-left__text {
+    max-width: 366px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .about-us__content-left__inner {
+    width: 100%;
+    padding: 33px 40px;
+    justify-content: space-between;
+  }
+  .about-us__content-right__item {
+    background-size: 117px;
+    background-position: left 38px center;
+    padding: 38px 42px 30px 170px;
+  }
+  .about-us__content-right__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .how-we-work {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .how-we-work__title {
+    margin-bottom: 49px;
+  }
+  .how-we-work__list {
+    justify-content: space-between;
+  }
+  .how-we-work__description-block {
+    flex-direction: column;
+    background-image: url(../img/Rectangle\ 768.png);
+    background-repeat: no-repeat;
+  }
+  .how-we-work__description-block__left {
+    margin: 0;
+    width: 100%;
+    padding-top: 323px;
+    background-image: url(../img/how_we_work\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 668px 285px;
+  }
+  .img-tab-2 {
+    background-image: url('../img/tab-2.jpg');
+  }
+  .img-tab-3 {
+    background-image: url('../img/tab-3.jpg');
+  }
+  .img-tab-4 {
+    background-image: url('../img/tab-4.jpg');
+  }
+  .how-we-work__description-block__right {
+    display: none;
+  }
+  .how-we-work__desc-text {
+    max-width: 684px;
+  }
+  .how-we-work__desc-title {
+    max-width: 331px;
+  }
+  .how-we-work__btns {
+    display: inline-flex;
+  }
+  .how-we-work__btn:not(:last-child) {
+    margin-right: 32px;
+  }
+  .asked-questions {
+    padding-top: 45px;
+    padding-bottom: 80px;
+  }
+  .asked-questions__item {
+    padding: 30px 0;
+  }
+  .asked-questions__item-2 svg {
+    top: 0;
+  }
+  .asked-questions__title {
+    margin-bottom: 35px;
+  }
+  .asked-questions__list-title {
+    max-width: 575px;
+    line-height: 32px;
+  }
+  .asked-questions__item:not(:last-child) {
+    margin-bottom: -1px;
+  }
+  .asked-questions__svg {
+    top: 30%;
+  }
+  .footer {
+    padding: 54px 0;
+  }
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+  .footer__right {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .footer__title {
+    margin-bottom: 25px;
+  }
+  .footer-container__left {
+    width: 100%;
+    margin: 0;
+    padding: 44px 0;
+  }
+  .footer__list {
+    display: none;
+  }
+  .footer-container__link {
+    margin-bottom: 12px;
+  }
+}
+@media(max-width:768px) {
+  .hero-swiper__text {
+    max-width: 581px;
+    left: 41px;
+    top: 161px;
+  }
+  .ui-accordion .ui-accordion-header {
+    max-width: 93%;
+    font-size: 22px;
+}
+.asked-questions__item svg {
+  right: -45px;
+}
+}

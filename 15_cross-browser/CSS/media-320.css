@@ -1,0 +1,316 @@
+@media (max-width:590px) {
+.container {
+  padding: 0 15px;
+}
+.header {
+  padding: 0;
+}
+.footer__right {
+  margin: 0;
+  width: 100%;
+}
+.header-search {
+  right: 12px;
+  bottom: 5px;
+}
+}
+
+@media (max-width:475px) {
+  .nav {
+    width: 320px;
+    height: 387px;
+  }
+  .lang-swither__link {
+    font-size: 16px;
+  }
+  .burger-line__close {
+    margin-bottom: 32px;
+  }
+  .lang-swither__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .Evklid-Logo {
+    width: 114px;
+  }
+  .hero {
+    height: 340px;
+  }
+  .hero-swiper__content {
+    top: -32px;
+  }
+  .hero-swiper__text {
+    max-width: 400px;
+    left: 26px;
+    top: 71px;
+  }
+  .swiper-pagination {
+    top: 281px;
+  }
+  .hero__container__inner {
+    text-align: center;
+    background-image: url(../img/low-angle-photo-of-balconies-320.png);
+  }
+  .main-heading {
+    margin-bottom: 8px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .main-button {
+    padding: 5px 28px;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .main-paragraph {
+    margin-bottom: 33px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .hero {
+    padding-bottom: 30px;
+  }
+  .about-us {
+    padding-top: 29px;
+  }
+  .about-us__title {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .about-us__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 14px;
+  }
+  .about-us__content-left {
+    background-size: 290px 200px;
+    padding-top: 200px;
+    background-position: top;
+    min-height: auto;
+  }
+  .about-us__content-left__inner {
+    flex-direction: column;
+    padding: 0;
+    background: none;
+  }
+  .about-us__content-right__title {
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .about-us__content-right__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .about-us__content-left__text {
+    padding-top: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--extra-black);
+    margin-bottom: 9px;
+  }
+  .about-us__content-left__btn {
+  padding: 8px 41px;
+  font-size: 12px;
+  align-self: start;
+  width: 162px;
+  height: 41px;
+  color: var(--orange-color);
+  }
+  .about-us__content-right__item {
+    background-size: 64px 49px;
+    background-position: left top;
+    border: none;
+    padding: 0;
+    padding-top: 59px;
+  }
+  .how-we-work {
+    padding-top: 41px;
+  }
+  .how-we-work__container {
+    padding: 0 13px;
+  }
+  .how-we-work__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  .how-we-work__list {
+    margin-bottom: 16px;
+    justify-content: space-between;
+  }
+  .how-we-work__item:not(:last-child) {
+    margin: 0;
+  }
+  .how-we-work__description-block {
+    background-image: url(../img/Rectangle\ 320.png);
+  }
+  .how-we-work__description-block__left {
+    background-size: 290px 160px;
+    padding-top: 175px;
+  }
+  .how-we-work__desc-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .how-we-work__desc-text {
+    margin-bottom: 15px;
+    max-width: 295px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .how-we-work__btn:not(:last-child) {
+    margin-right: 12px;
+  }
+  .how-we-work__btn {
+    font-size: 12px;
+    padding: 13px 44px;
+  }
+  .how-we-work__btn__contract {
+    padding: 13px 30px;
+  }
+  .step-item__btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .asked-questions {
+    padding-top: 18px;
+    padding-bottom: 60px;
+  }
+  .asked-questions__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+  .asked-questions__list .asked-questions__item:nth-last-child(1) {
+    padding: 30px 0 27px;
+  }
+  .asked-questions__list .asked-questions__item:nth-child(1) svg, .asked-questions__list .asked-questions__item:nth-child(5) svg{
+    top: -1px;
+  }
+  .asked-questions__list-title {
+    max-width: 243px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .asked-questions__svg {
+    width: 30px;
+  }
+  .asked-questions__item {
+    padding: 30px 0;
+  }
+  .asked-questions__item-2 svg {
+    top: 10px;
+  }
+  .footer {
+    padding-top: 32px;
+  }
+  .footer__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 24px;
+  }
+  .footer-form__inner {
+    flex-direction: column;
+  }
+  .footer-form__input {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .footer-form__textarea {
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .footer-form__btn {
+    padding: 14px 29px;
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  .footer-container__left {
+    align-items: center;
+    width: 100%;
+    padding-top: 17px;
+    border-top: 1px solid #595959;
+  }
+  .footer__right {
+    margin-bottom: 22px;
+  }
+  .footer__right-wrapper {
+    margin-right: 0;
+  }
+  .footer-container__link {
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .footer-container__link img {
+    width: 135px;
+  }
+  .footer-social {
+    justify-content: space-around;
+  }
+  .footer-social__link:not(:last-child) {
+    margin-right: 16px;
+  }
+  .footer-social__link svg {
+    width: 40px;
+  }
+  .footer-container__left .footer-social {
+    max-width: 135px;
+  }
+}
+
+@media (max-width:439px) {
+.main-paragraph {
+  margin-bottom: 15px;
+}
+}
+
+@media screen and (max-width:320px) {
+  body {
+    width: 320px;
+  }
+  .hero-swiper__text {
+    left: 1px;
+    top: 60px;
+}
+.header-search {
+  width: 305px;
+  padding: 22px 15px 22px 15px;
+}
+.search-input {
+  margin-right: 8px;
+}
+.search {
+  margin-right: 10px;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 9px;
+}
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,11px));
+  height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,11px));
+}
+.ui-accordion .ui-accordion-header {
+  font-size: 15px;
+}
+.asked-questions__item svg {
+  right: -15px;
+}
+}
